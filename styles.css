@@ -21,7 +21,7 @@ h1 {
 
 /* Issue 4: Non-responsive image */
 .big-image {
-   max- width: 100%;
+   max-width: 100%;
     height: auto;
     display:block;
 }
