@@ -1,0 +1,46 @@
+/* Issue 1: Non-responsive container */
+.container {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Issue 2: Incorrect class name (should match HTML) */
+.content-box {
+    background-color: #f0f0f0;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+/* Issue 3: !important overuse */
+h1 {
+    color: blue !important;
+}
+
+/* Issue 4: Non-responsive image */
+.big-image {
+    width: 1000px;
+    height: 500px;
+}
+
+/* Issue 5: Inconsistent color values */
+.button {
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Issue 6: Missing hover state */
+.button:hover {
+    background-color: darkred;
+}
+
+/* Issue 7: Fixed positioning that might cause layout issues */
+form {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+} 
