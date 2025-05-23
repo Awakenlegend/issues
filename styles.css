@@ -1,7 +1,8 @@
 /* Issue 1: Non-responsive container */
 .container {
-    width: 800px;
-    margin: 0 auto;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto ;
     padding: 20px;
 }
 
@@ -15,18 +16,19 @@
 
 /* Issue 3: !important overuse */
 h1 {
-    color: blue !important;
+    color: blue ;
 }
 
 /* Issue 4: Non-responsive image */
 .big-image {
-    width: 1000px;
-    height: 500px;
+   max-width: 100%;
+    height: auto;
+    display:block;
 }
 
 /* Issue 5: Inconsistent color values */
 .button {
-    background-color: rgb(255, 0, 0);
+    background-color: #ff0000;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -40,7 +42,7 @@ h1 {
 
 /* Issue 7: Fixed positioning that might cause layout issues */
 form {
-    position: fixed;
+    position: static;
     top: 20px;
     right: 20px;
 } 
