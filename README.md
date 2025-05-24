@@ -5,7 +5,7 @@ This is a simple website project designed to help learn about common web develop
 ## Project Structure
 - `index.html` - Main HTML file
 - `styles.css` - CSS styles
-- `script.js` - JavaScript functionality
+
 
 ## Setup
 1. Clone this repository
