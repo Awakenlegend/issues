@@ -6,7 +6,6 @@
     padding: 20px;
 }
 
-/* Issue 2: Incorrect class name (should match HTML) */
 .content-box {
     background-color: #f0f0f0;
     padding: 15px;
